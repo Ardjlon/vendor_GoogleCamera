@@ -15,6 +15,7 @@
 # Copy permission files
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/GoogleCamera/Prebuilts/etc,$(TARGET_COPY_OUT_SYSTEM)/etc)
 
-# GoogleCamera-BSG
+# GoogleCamera-Parrot
 PRODUCT_PACKAGES += \
-   GoogleCamera
+   GoogleCamera \
+   GoogleGalleryGo
