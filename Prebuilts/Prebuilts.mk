@@ -17,5 +17,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/GoogleCamera/Prebui
 
 # GoogleCamera-Parrot
 PRODUCT_PACKAGES += \
-   GoogleCameraParrot \
-   GoogleGalleryGo
+   GoogleCameraParrot
